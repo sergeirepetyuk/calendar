@@ -1,0 +1,10 @@
+.Calendar__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  max-width: 980px;
+}
+.Calendar__time-period-switcher {
+  border-radius: 5px;
+  border: solid 1px #efefef;
+}

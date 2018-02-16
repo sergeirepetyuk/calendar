@@ -1,17 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/Block.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style/slyle.css"> 
+    <link rel="stylesheet" href="style/Calendar.css">
+     <link rel="stylesheet" href="style/Calendar__header.css">
+      <link rel="stylesheet" href="style/Layout.css">
+       <link rel="stylesheet" href="style/Logo.css">
+        <link rel="stylesheet" href="style/Navigation.css">
+         <link rel="stylesheet" href="style/Profile.css">
+          <link rel="stylesheet" href="style/Switchers.css">
+           <link rel="stylesheet" href="style/Search.css">
+            
 </head>
-<body>
-  <h1 class="Block">{{msg}}</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur blanditiis, doloremque earum facilis ipsam iste magnam, molestiae, mollitia necessitatibus neque nesciunt pariatur quam quia quidem rem sapiente similique vitae.</p>
+
+<body class="Layout">
+    <aside class="Layout__aside">
+        <a href="" class="Logo">the logo</a>
+        <a href="" class="Profile Profile__icon"></a>
+        <a href="" class="Profile Profile__name">M. Naminovskiy</a>
+        <nav class="Navigation ">
+            <a href="" class="Navigation__item Navigation__item_owerview">Owerview</a>
+            <a href="" class="Navigation__item Navigation__item_messages">Messages</a>
+            <a href="" class="Navigation__item Navigation__item_workout">Workout</a>
+            <a href="" class="Navigation__item Navigation__item_calendar Navigation__item_active">Calendar</a>
+            <a href="" class="Navigation__item Navigation__item_goals">Goalds</a>
+            <a href="" class="Navigation__item Navigation__item_achivements">Achivements</a>
+            <a href="" class="Navigation__item Navigation__item_measurements">Measurements</a>
+        </nav>
+        <aside class="copyright">®Smooozy.com, 2017</aside>
+    </aside>
+    <main class="Layout__calendar">
+        <header class="Calendar__header">
+            <div class="Calendar__time-period-switcher">
+                <button class="Switcher Switcher__week Switcher__disable">Week</button>
+                 <button class="Switcher Switcher__mounth Switcher__active ">Month</button>
+            </div>
+        <div class="Calendar__mounth-switcher">
+            <button class="Button__previous">Previous</button>
+            <h2 class="Mounth__present">July 2017</h2>
+            <button class="Button__next">Next</button>
+        </div>
+        <form action="search" class="Search">
+            <input class="Search__input" type="text" placeholder="What are you looking for?">
+            <button class="Search__button">Search</button>
+        </form>
+        </header>
+            <aside class="Calendar">
+                <div class="Calendar__day Calendar__day_box">
+                <h3 class="Calendar__day Calendar__day_name ">Mon</h3>
+                <h3 class="Calendar__day Calendar__day_name">Tue</h3>
+                <h3 class="Calendar__day Calendar__day_name">Wed</h3>
+                <h3 class="Calendar__day Calendar__day_name">Thu</h3>
+                <h3 class="Calendar__day Calendar__day_name">Fri</h3>
+                <h3 class="Calendar__day Calendar__day_name">Sut</h3>
+                <h3 class="Calendar__day Calendar__day_name">Sun</h3>
+                </div>
+                <time class="Calendar__day Calendar__day_number ">1</time>
+                <time class="Calendar__day Calendar__day_number">2</time>
+                <time class="Calendar__day Calendar__day_number ">3</br>
+                    <span class="Calendar__day_event Calendar__day_event_orange Calendar__day_event_orange_disable">
+                        Cycling
+                    </span>
+                </time>
+                <time class="Calendar__day Calendar__day_number">4</time>
+                <time class="Calendar__day Calendar__day_number">5</time>
+                <time class="Calendar__day Calendar__day_number">6</time>
+                <time class="Calendar__day Calendar__day_number">7</br>
+                    <span class="Calendar__day_event Calendar__day_event_green">
+                        Triple Treat
+                    </span>
+                </time>
+                <time class="Calendar__day Calendar__day_number">8</br>
+                    <span class="Calendar__day_event Calendar__day_event_orange">
+                        2km Run
+                    </span>
+                </time>
+                <time class="Calendar__day Calendar__day_number">9</time>
+                <time class="Calendar__day Calendar__day_number">10</time>
+                <time class="Calendar__day Calendar__day_number">11</time>
+                <time class="Calendar__day Calendar__day_number">
+                    12
+                    <span class="Calendar__day_event Calendar__day_event_blue">
+                            5km Run
+                        </span>
+                </time>
+                <time class="Calendar__day Calendar__day_number">13</time>
+                <time class="Calendar__day Calendar__day_number">14</time>
+                <time class="Calendar__day Calendar__day_number">15</time>
+                <time class="Calendar__day Calendar__day_number ">
+                   <div class="Calendar__day_number_active">16</div> 
+                    <span class="Calendar__day_event Calendar__day_event_green">
+                        Trieple Treat
+                        </span></br>
+                    <span class="Calendar__day_event Calendar__day_event_blue">
+                        Endurance Run
+                    </span>
+                </time>
+                <time class="Calendar__day Calendar__day_number">17</time>
+                <time class="Calendar__day Calendar__day_number">18</time>
+                <time class="Calendar__day Calendar__day_number">19</time>
+                <time class="Calendar__day Calendar__day_number">20</br>
+                    <span class="Calendar__day_event Calendar__day_event_orange">
+                        Cycling
+                     </span>
+                </time>
+                <time class="Calendar__day Calendar__day_number">21</time>
+                <time class="Calendar__day Calendar__day_number">22</time>
+                <time class="Calendar__day Calendar__day_number">23</time>
+                <time class="Calendar__day Calendar__day_number">24</time>
+                <time class="Calendar__day Calendar__day_number">25</time>
+                <time class="Calendar__day Calendar__day_number">26</time>
+                <time class="Calendar__day Calendar__day_number">27</time>
+                <time class="Calendar__day Calendar__day_number">28</time>
+                <time class="Calendar__day Calendar__day_number">29</time>
+                <time class="Calendar__day Calendar__day_number">30</time>
+                <time class="Calendar__day Calendar__day_number">31</time>
+                <time class="Calendar__day Calendar__day_number Calendar__day_number_disable">1</time>
+                <time class="Calendar__day Calendar__day_number Calendar__day_number_disable">2</time>
+                <time class="Calendar__day Calendar__day_number Calendar__day_number_disable">3</time>
+                <time class="Calendar__day Calendar__day_number Calendar__day_number_disable">4</time>
+            </aside>
+
+ 
+    </main>
 
 </body>
+
 </html>

@@ -1,0 +1,50 @@
+.Switcher {
+  padding: 14px 28px;
+}
+.Switcher__active {
+  background-color: #FFF;
+  box-shadow: 8px 8px 16px 0 rgba(243, 0, 0, 0.2);
+  border: solid 1px  #ffffff;
+  border-radius: 0 5px 5px 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ed5454;
+}
+.Switcher__disable {
+  border: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  background-color: transparent;
+  color: #a8b2b9;
+}
+.Switcher__mounth {
+  margin-left: -6px;
+}
+.Mounth__present {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #292529;
+}
+.Button__previous {
+  border: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin-right: -45px;
+  background-image: url(../img/left-arrow.svg);
+  background-size: 10px 16px ;
+}
+.Button__next {
+  border: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin-left: 10px;
+  background-image: url(../img/right-arrow.svg);
+  background-size: 10px 16px ;
+}

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #fcfbfc;
+}
+.Calendar__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  max-width: 980px;
+}
+.Calendar__time-period-switcher {
+  border-radius: 5px;
+  border: solid 1px #efefef;
+}
+.Switcher {
+  padding: 14px 28px;
+}
+.Switcher__active {
+  background-color: #FFF;
+  box-shadow: 8px 8px 16px 0 rgba(243, 0, 0, 0.2);
+  border: solid 1px  #ffffff;
+  border-radius: 0 5px 5px 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ed5454;
+}
+.Switcher__disable {
+  border: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  background-color: transparent;
+  color: #a8b2b9;
+}
+.Switcher__mounth {
+  margin-left: -6px;
+}
+.Mounth__present {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #292529;
+}
+.Button__previous {
+  border: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin-right: -45px;
+  background-image: url(../img/left-arrow.svg);
+  background-size: 10px 16px ;
+}
+.Button__next {
+  border: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin-left: 10px;
+  background-image: url(../img/right-arrow.svg);
+  background-size: 10px 16px ;
+}
+.Search {
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 11px 0 rgba(189, 159, 189, 0.11);
+  position: relative;
+  width: 230px;
+  height: 40px;
+}
+.Search__input {
+  border-radius: 25px;
+  border: none;
+  width: 160px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #a8b2b9;
+  padding-left: 25px;
+  padding-top: 12px;
+  padding-right: 5px;
+}
+.Search__button {
+  width: 40px;
+  height: 39px;
+  position: absolute;
+  background-image: url(../img/search.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  border: none;
+  background-color: #fff;
+  border-radius: 25px;
+  background-size: 13px 13px;
+}

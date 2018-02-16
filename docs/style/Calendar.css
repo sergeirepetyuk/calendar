@@ -1,0 +1,83 @@
+.Calendar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+}
+.Calendar__day {
+  background-color: #FFF;
+}
+.Calendar__day_event {
+  display: inline-block;
+  width: 115px;
+  padding: 7px 10px;
+  border-radius: 2px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-top: 15px;
+}
+.Calendar__day_event_green {
+  border-left: solid 4px #58cb7d;
+  color: #58cb7d;
+  background-color: rgba(88, 203, 125, 0.3);
+}
+.Calendar__day_event_blue {
+  border-left: solid 4px #346ff1;
+  color: #346ff1;
+  background-color: rgba(52, 111, 241, 0.3);
+}
+.Calendar__day_event_orange {
+  border-left: solid 4px #fd9b5b;
+  color: #fd9b5b;
+  background-color: rgba(253, 155, 91, 0.3);
+}
+.Calendar__day_event_orange_disable {
+  color: #fff;
+  background-color: #fd9b5b;
+  box-shadow: 6px 3px 7px 4px rgba(189, 159, 189, 0.15);
+}
+.Calendar__day_box {
+  display: flex;
+  border: solid 1px  #efefef;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 980px;
+}
+.Calendar__day_name {
+  font-size: 10px;
+  color: #a8b2b9;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Calendar__day_number {
+  border: solid 1px #efefef;
+  font-size: 14px;
+  color: #8a888a;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  width: 133.8px;
+  margin-top: -1px;
+  margin-right: -1px;
+  height: 122px;
+  padding-top: 5px;
+  letter-spacing: -0.2px;
+  padding-right: 5px;
+}
+.Calendar__day_number_active {
+  color: #fff;
+  width: 25px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #ed5454;
+  padding-top: 2px;
+  text-align: center;
+  position: relative;
+  margin-left: 110px;
+}
+.Calendar__day_number_disable {
+  background-color: #f8f7f8;
+}
