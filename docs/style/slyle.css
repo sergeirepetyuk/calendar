@@ -53,7 +53,7 @@ body {
   background-repeat: no-repeat;
   background-color: transparent;
   margin-right: -45px;
-  background-image: url(../img/left-arrow.svg);
+  background-image: url(../images/left-arrow.svg);
   background-size: 10px 16px ;
 }
 .Button__next {
@@ -62,7 +62,7 @@ body {
   background-repeat: no-repeat;
   background-color: transparent;
   margin-left: 10px;
-  background-image: url(../img/right-arrow.svg);
+  background-image: url(../images/right-arrow.svg);
   background-size: 10px 16px ;
 }
 .Search {
@@ -91,7 +91,7 @@ body {
   width: 40px;
   height: 39px;
   position: absolute;
-  background-image: url(../img/search.svg);
+  background-image: url(../images/search.svg);
   background-position: center;
   background-repeat: no-repeat;
   color: transparent;

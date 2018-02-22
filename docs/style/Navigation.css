@@ -19,7 +19,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/overview.svg');
+  background-image: url('../images/overview.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
@@ -31,7 +31,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/messages.svg');
+  background-image: url('../images/messages.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
@@ -43,7 +43,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/workout.svg');
+  background-image: url('../images/workout.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
@@ -64,7 +64,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/calendar.svg');
+  background-image: url('../images/calendar.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
@@ -76,7 +76,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/goals.svg');
+  background-image: url('../images/goals.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
@@ -88,7 +88,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/achievement.svg');
+  background-image: url('../images/achievement.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
@@ -100,7 +100,7 @@
   content: '';
   width: 15px;
   height: 15px;
-  background-image: url('../img/measurements.svg');
+  background-image: url('../images/measurements.svg');
   background-position: center;
   background-size: 15px 15px ;
   margin-left: -28px;
